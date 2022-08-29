@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block body %}
+<!-- content designing -->
+
+<h1 class="heading col-span-full text-3xl sm:text-4xl sm:text-center xl:mb-12 font-extrabold tracking-tight text-slate-900 dark:text-slate-200">{{post.title}}</h1>
+<p id="time">{{post.timestamp}}</p>
+<hr />
+<div class="prose prose-slate dark:prose-dark" id="postContent">
+    <p>{{post.desc | safe}}</p>
+</div>
+
+<!-- content designing -->
+{% endblock body %}

@@ -1,0 +1,14 @@
+.Search {
+    border: none;
+    outline: none;
+}
+.logo {
+    color: orange;
+}
+
+@media (max-width: 900px) {
+    
+    .navcon {
+        display: none;
+    }
+}
